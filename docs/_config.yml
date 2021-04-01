@@ -22,8 +22,8 @@ title: 2021年度貞廣担当のページ
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
  2021年度に貞廣が担当する講義・ゼミなどの情報を提供するサイトです。
-baseurl: "https://tsadahiro.github.io/2021cources/" # the subpath of your site, e.g. /blog
-url: "https://tsadahiro.github.io/2021cources/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/2021cources" # the subpath of your site, e.g. /blog
+url: "https://tsadahiro.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
