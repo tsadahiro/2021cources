@@ -27,6 +27,8 @@ url: "https://tsadahiro.github.io" # the base hostname & protocol for your site,
 twitter_username: jekyllrb
 github_username:  jekyll
 
+highlighter: rouge
+
 # Build settings
 theme: minima
 plugins:
