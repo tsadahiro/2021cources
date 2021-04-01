@@ -24,15 +24,20 @@ description: >- # this means to ignore newlines until "baseurl:"
  2021年度に貞廣が担当する講義・ゼミなどの情報を提供するサイトです。
 baseurl: "/2021cources" # the subpath of your site, e.g. /blog
 url: "https://tsadahiro.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+github_username:  tsadahiro
 
 highlighter: rouge
 
+github: [metadata]
+
 # Build settings
 #theme: jekyll-theme-architect
-theme: jekyll-theme-cayman
-#theme: minima
+#theme: jekyll-theme-midnight
+theme: minima
+#theme: jekyll-theme-cayman
+#remote-theme: jekyll-theme-cayman
+#remote_theme : "manid2/lone-wolf-theme"
 plugins:
   - jekyll-feed
 
