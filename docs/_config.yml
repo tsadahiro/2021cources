@@ -30,7 +30,9 @@ github_username:  jekyll
 highlighter: rouge
 
 # Build settings
-theme: minima
+#theme: jekyll-theme-architect
+theme: jekyll-theme-cayman
+#theme: minima
 plugins:
   - jekyll-feed
 
