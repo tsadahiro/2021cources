@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: default
 title:  "初回"
 date:   2021-04-01 13:20:20 +0900
-categories: post
 ---
 
 # この授業で学ぶ内容
