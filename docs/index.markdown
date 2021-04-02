@@ -5,4 +5,10 @@
 layout: default
 ---
 
-Test.
+<h2>{{ site.data.lectures.lectures_title }}</h2>
+<ul>
+   {% for item in site.data.lectures.lectures %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
+

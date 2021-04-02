@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 2021年度貞廣担当のページ
+title: 2021年度パズル・ゲームプロジェクト
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
- 2021年度に貞廣が担当する講義・ゼミなどの情報を提供するサイトです。
+ 2021年度の3年プロジェクト「パズル・ゲーム」に関する情報を掲載します。
 baseurl: "/2021cources" # the subpath of your site, e.g. /blog
 url: "https://tsadahiro.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -33,8 +33,8 @@ github: [metadata]
 
 # Build settings
 #theme: jekyll-theme-architect
-#theme: jekyll-theme-midnight
-#theme: jekyll-theme-minimal
+theme: jekyll-theme-midnight
+theme: jekyll-theme-minimal
 #theme: minima
 theme: jekyll-theme-cayman
 #remote-theme: jekyll-theme-cayman
