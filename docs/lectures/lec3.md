@@ -85,9 +85,9 @@ Go to http://localhost:8000 to see your project dashboard.
 - 書かれている通り、http://localhost:8000
 にブラウザでアクセスします。
 
-![screenshot](/2021courses/assets/img/reactorpage.png)
+![screenshot](/assets/img/reactorpage.png)
 
 - First.elmを開いて次のようなページが表示されたら準備完了です。
 
-![screenshot2](assets/img/First.png)
+![screenshot2](/assets/img/First.png)
 
