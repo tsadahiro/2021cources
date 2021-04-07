@@ -5,7 +5,7 @@ lectures:
   url: lectures/lec1.html
 
 - title: HTMLの復習
-  url: lec2.html
+  url: lectures/lec2.html
 
 - title: Elm入門
   url: lec3.html
