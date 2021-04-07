@@ -85,7 +85,7 @@ Go to http://localhost:8000 to see your project dashboard.
 - 書かれている通り、http://localhost:8000
 にブラウザでアクセスします。
 
-![Screenshot]({{ "/assets/img/reactorpage.png" | absolute_url }})
+![Screenshot]({{ site.baseurl }}/assets/img/reactorpage.png)
 
 
 - First.elmを開いて次のようなページが表示されたら準備完了です。
