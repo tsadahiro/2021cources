@@ -87,9 +87,8 @@ Go to http://localhost:8000 to see your project dashboard.
 
 ![Screenshot]({{ site.baseurl }}/assets/img/reactorpage.png)
 
-baseurl {{site.baseurl }}
 
 - First.elmを開いて次のようなページが表示されたら準備完了です。
 
-![screenshot2](/assets/img/First.png)
+![screenshot2]({{ site.baseurl }}/assets/img/First.png)
 
