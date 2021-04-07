@@ -1,0 +1,30 @@
+---
+layout: default
+title:  "準備"
+date:   2021-04-07 
+---
+
+# Elmのインストール
+
+## node
+
+nodeというソフトウェアをまずインストールしましょう。
+
+[Macにnodeをインストール](https://qiita.com/kyosuke5_20/items/c5f68fc9d89b84c0df09)
+
+## npmを用いたインストール
+
+
+
+# SVG
+
+SVGははじめて触れる方も多いと思いますが、
+今後頻繁に用いる2次元ベクターイメージ用の画像形式の1つです。
+
+[SVG教本](https://developer.mozilla.org/ja/docs/Web/SVG/Tutorial)
+
+# 参考文献
+
+- [HTML入門](https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML)
+- [qiitaの記事](https://qiita.com/ryome/items/9ec3819e5e9ab5321553)
+- [SVG教本](https://developer.mozilla.org/ja/docs/Web/SVG/Tutorial)

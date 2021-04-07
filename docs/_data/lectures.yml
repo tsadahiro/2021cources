@@ -7,8 +7,11 @@ lectures:
 - title: HTMLの復習
   url: lectures/lec2.html
 
-- title: Elm入門
-  url: lec3.html
+- title: 準備
+  url: lectures/lec3.html
+
+- title: Elm入門1
+  url: lectures/lec4.html
 
 - title: Elm入門2
-  url: lec4.html
+  url: lectures/lec5.html
