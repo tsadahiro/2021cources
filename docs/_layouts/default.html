@@ -24,8 +24,8 @@
   <body>
 
     <header class="page-header" role="banner">
-      <a href = "{{baseurl}}/index.html">
-	<h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <a href = "{{site.baseurl}}/index.html">
+	<h1 class="project-name" style="color:white;">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       </a>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="{{ site.baseurl }}/index.html" class="btn">index</a>
@@ -40,14 +40,27 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
+      {% assign name = page.name|split: "." %}
+      {% for lec in site.data.lectures.lectures %}
+      {% assign l = lec.url | split: "/" %}
+      {% assign n =  l[1]|split: "." %}
+      {% if n[0] == name[0] %}
+      {% assign idx = forloop.index %}
+      {% endif %}
+      {% endfor %}
+      {% if idx %}
+      {% assign previdx = idx | minus: 2%}
       <div class="post-nav">
+	{% if previdx >= 0 %}
 	<p>
-	  <a href="">&#8672;&nbsp;</a>
+	  <a href="{{site.basurl}}/{{site.data.lectures.lectures[previdx].url}}">&#8672;&nbsp;{{previdx|plus: 1}}. {{site.data.lectures.lectures[previdx].title}}</a>
 	</p>
+	{% endif %}
 	<p>
-	  <a href="">&nbsp;&#8674;</a>
+	  <a href="{{site.basurl}}/{{site.data.lectures.lectures[idx].url}}" >{{idx|plus: 1}}. {{site.data.lectures.lectures[idx].title}}&nbsp;&#8674;</a>
 	</p>
       </div>
+      {% endif %}
 
 
       <footer class="site-footer">
