@@ -2,16 +2,16 @@ lectures_title: 3年プロジェクト「パズル・ゲーム」
 lectures:
 
 - title: Introduction
-  url: lectures/lec1.html
+  url: /lectures/lec1.html
 
 - title: HTMLの復習
-  url: lectures/lec2.html
+  url: /lectures/lec2.html
 
 - title: 準備
-  url: lectures/lec3.html
+  url: /lectures/lec3.html
 
 - title: Elm入門1
-  url: lectures/lec4.html
+  url: /lectures/lec4.html
 
 - title: Elm入門2
-  url: lectures/lec5.html
+  url: /lectures/lec5.html

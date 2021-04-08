@@ -33,11 +33,14 @@ highlighter: rouge
 github: [metadata]
 
 # Build settings
-#theme: jekyll-theme-architect
+theme: jekyll-theme-architect
 #theme: jekyll-theme-midnight
 #theme: jekyll-theme-minimal
+#theme: jekyll-theme-dinky
+#theme: jekyll-theme-leap-day
 #theme: minima
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+#theme: jekyll-theme-hyde
 
 
 plugins:
