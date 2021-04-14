@@ -22,8 +22,22 @@ date:   2021-04-02
 
 完成したゲームは例えば[github](https://github.com/)などを通じて公開します。
 
+## 例
+
+
+<script src="/assets/js/main.js"></script>
+  <div id="myapp"></div>
+  <script>
+  var app = Elm.Main.init({
+    node: document.getElementById('myapp')
+  });
+  </script>
+
+
 
 # 参考文献
 
 - [シカゴ大学のcs223](https://www.classes.cs.uchicago.edu/archive/2019/spring/22300-1/)
 - [Elmガイド](https://guide.elm-lang.jp/)
+- [99 problems solved in Elm](https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/)
+- [Examples](https://elm-lang.org/examples)
