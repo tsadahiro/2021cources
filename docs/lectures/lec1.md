@@ -25,7 +25,7 @@ date:   2021-04-02
 ## 例
 
 
-<script src="/assets/js/main.js"></script>
+<script src="{{ site.baseurl }}/assets/js/main.js"></script>
   <div id="myapp"></div>
   <script>
   var app = Elm.Main.init({
