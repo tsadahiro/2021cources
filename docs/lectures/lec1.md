@@ -20,13 +20,19 @@ date:   2021-04-02
 も出来るとよいと思います。
 一般的には番号の順に難易度があがると思われます。
 
+　5. 問題(パズル)の難しさの評価
+
+などに興味がある人もいるかもしれませんがこの授業では
+取り扱えません。
 完成したゲームは例えば[github](https://github.com/)などを通じて公開します。
 
 ## 例
 
+以下はElmで作成したスライドパズルです。
+1.のみの状態です。
 
 <script src="{{ site.baseurl }}/assets/js/main.js"></script>
-  <div id="myapp"></div>
+  <div id="myapp" ></div>
   <script>
   var app = Elm.Main.init({
     node: document.getElementById('myapp')
