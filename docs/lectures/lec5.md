@@ -77,7 +77,53 @@ main =
 {% endhighlight %}
 
 List.mapにより関数**makeitem**をリスト**hiralist**の
-各要素に適用した結果を集めて新たなli要素のリストを作っています。
+各要素に適用した結果を集めて新たなli要素のリスト(List (Html msg))を作っています。
 
 
 ![Screenshot2]({{ site.baseurl }}/assets/img/listshow.png)
+
+
+{% highlight elm %}
+module Click exposing(..)
+
+import Browser
+import Svg exposing(..)
+import Svg.Attributes exposing(..)
+import Svg.Events exposing(..)
+
+type Msg = Clicked1
+    |Clicked2
+
+main = Browser.sandbox {init=init, update=update, view=view}
+
+init = {light1=True, light2=True}
+
+update msg model =
+    case msg of
+        Clicked1 -> {model | light1=(not model.light1)}
+        Clicked2 -> {model | light2=(not model.light2)}
+
+view model  =
+    svg [width "400"
+        ,height "400"
+        ]
+        [
+         circle [cx "200"
+                ,cy "200"
+                ,r "50"
+                ,fill (if model.light1 then "yellow" else "gray")
+                ,stroke "black"
+                ,onClick Clicked1
+                ]
+             []
+        ,circle [cx "300"
+                ,cy "200"
+                ,r "50"
+                ,fill (if model.light2 then "yellow" else "gray")
+                ,stroke "black"
+                ,onClick Clicked2
+                ]
+             []
+        ]
+
+{% endhighlight %}
